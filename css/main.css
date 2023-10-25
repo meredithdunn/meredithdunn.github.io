@@ -267,90 +267,7 @@ input.w-button {
 html[data-w-dynpage] [data-w-cloak] {
   color: transparent !important;
 }
-.w-webflow-badge,
-.w-webflow-badge * {
-  z-index: auto;
-  visibility: visible;
-  box-sizing: border-box;
-  width: auto;
-  height: auto;
-  max-height: none;
-  max-width: none;
-  min-height: 0;
-  min-width: 0;
-  float: none;
-  clear: none;
-  box-shadow: none;
-  opacity: 1;
-  direction: ltr;
-  font-family: inherit;
-  font-weight: inherit;
-  color: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  font-style: inherit;
-  font-variant: inherit;
-  text-align: inherit;
-  letter-spacing: inherit;
-  -webkit-text-decoration: inherit;
-  text-decoration: inherit;
-  text-indent: 0;
-  text-transform: inherit;
-  text-shadow: none;
-  vertical-align: baseline;
-  cursor: inherit;
-  white-space: inherit;
-  word-break: normal;
-  word-spacing: normal;
-  word-wrap: normal;
-  background: 0 0;
-  border: 0 transparent;
-  border-radius: 0;
-  margin: 0;
-  padding: 0;
-  list-style-type: disc;
-  transition: none;
-  display: block;
-  position: static;
-  top: auto;
-  bottom: auto;
-  left: auto;
-  right: auto;
-  overflow: visible;
-  transform: none;
-}
-.w-webflow-badge {
-  white-space: nowrap;
-  cursor: pointer;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
-  visibility: visible !important;
-  z-index: 2147483647 !important;
-  color: #aaadb0 !important;
-  opacity: 1 !important;
-  width: auto !important;
-  height: auto !important;
-  background-color: #fff !important;
-  border-radius: 3px !important;
-  margin: 0 !important;
-  padding: 6px !important;
-  font-size: 12px !important;
-  line-height: 14px !important;
-  text-decoration: none !important;
-  display: inline-block !important;
-  position: fixed !important;
-  top: auto !important;
-  bottom: 12px !important;
-  left: auto !important;
-  right: 12px !important;
-  overflow: visible !important;
-  transform: none !important;
-}
-.w-webflow-badge > img {
-  visibility: visible !important;
-  opacity: 1 !important;
-  vertical-align: middle !important;
-  display: inline-block !important;
-}
+
 h1,
 h2,
 h3,
@@ -734,6 +651,7 @@ textarea.w-select {
 .w-hidden-main {
   display: none !important;
 }
+
 @media screen and (max-width: 991px) {
   .w-container {
     max-width: 728px;
@@ -1897,7 +1815,7 @@ textarea.w-select {
 }
 .w-embed-youtubevideo {
   width: 100%;
-  background-image:none;
+  background-image: none;
   background-position: 50%;
   background-size: cover;
   padding-bottom: 0;
@@ -2321,8 +2239,7 @@ figcaption {
   width: 400px;
   height: 400px;
   background-color: #e7e1fb;
-  background-image: none,
-    linear-gradient(#e7e1fb, #e7e1fb);
+  background-image: none, linear-gradient(#e7e1fb, #e7e1fb);
   background-position: 50%, 0 0;
   background-attachment: scroll, scroll;
   border-radius: 20px;
@@ -2411,24 +2328,7 @@ figcaption {
   display: flex;
   overflow: hidden;
 }
-.webflow-link {
-  opacity: 0.5;
-  text-transform: uppercase;
-  align-items: center;
-  text-decoration: none;
-  transition: opacity 0.4s;
-  display: flex;
-}
-.webflow-link:hover {
-  opacity: 1;
-}
-.webflow-link:active {
-  opacity: 0.8;
-}
-.webflow-logo-tiny {
-  margin-top: -2px;
-  margin-right: 8px;
-}
+
 .footer-links {
   color: #fff;
   align-items: center;
@@ -5013,9 +4913,7 @@ figcaption {
     text-align: center;
     flex-direction: column;
   }
-  .webflow-link {
-    margin-bottom: 15px;
-  }
+
   .footer-links {
     flex-direction: column;
   }
